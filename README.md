@@ -1,4 +1,6 @@
 # jmsapp1
+The application is used to demomnstrate an architecture of building business applications using some structure as a business entities and a set of methods (use cases) to manage this structure.
+In this project is used an architecture of REST-services and messaging (JMS) based on Redis server as a message-broker
 ### How to launch project from command line interface
 Check maven installed on your PC, then run:
 1. `mvn clean test` - this command performs JmsApp1Test unit-test;
