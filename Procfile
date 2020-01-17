@@ -1,1 +1,1 @@
-web: java -jar /target/jmsapp1.jar
+web: java -jar ./target/jmsapp1.jar
