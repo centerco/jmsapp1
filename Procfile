@@ -1,1 +1,1 @@
-web: node app.js
+web: java -jar /target/jmsapp1.jar
