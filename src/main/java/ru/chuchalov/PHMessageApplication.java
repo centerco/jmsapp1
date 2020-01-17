@@ -5,6 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.annotation.PropertySource;
 
+/**
+ * Класс запускает приложение Spring boot application из статического метода main
+ * Параметров для запуска не требуется
+ * 
+ * @author Andrei Chuchalov
+ * @version 1.0
+ */
 @SpringBootApplication
 @EnableAutoConfiguration
 @PropertySource("classpath:application.properties")

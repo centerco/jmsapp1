@@ -5,6 +5,12 @@ import org.slf4j.Logger;
 import org.springframework.boot.context.event.ApplicationFailedEvent;
 import org.springframework.context.ApplicationListener;
 
+/**
+ * Класс - обработчик события закрытия приложения. Обеспечивает корректную обработку сигала.
+ * 
+ * @author Andrei Chuchalov
+ * @version 1.0
+ */
 public class PHMessageApplicationListener implements ApplicationListener<ApplicationFailedEvent> {
 	
 	private static final Logger log = LoggerFactory.getLogger(PHMessageApplicationListener.class);

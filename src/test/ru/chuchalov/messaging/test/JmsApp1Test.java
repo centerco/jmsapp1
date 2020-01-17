@@ -27,6 +27,16 @@ import com.jayway.jsonpath.JsonPath;
 import ru.chuchalov.messaging.PHMessage;
 import ru.chuchalov.messaging.PHMessageBuilder;
 
+/**
+ * Юнит-тест для тестирования методов обработки сущностей {@link PHMessage}
+ * Реализован цикл работы с сущностями:
+ * - юнит-тест методов класса сущности {@link PHMessage} {@link JmsApp1Test#phMessageTest()}
+ * - юнит-тест методов класса контроллера {@link PHMessageController} {@link JmsApp1Test#phMessageAddRecordsTest()}
+ * 
+ * @author Andrei Chuchalov
+ * @version 1.0
+ *
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
@@ -49,6 +59,14 @@ public class JmsApp1Test {
 	@Autowired
 	private MockMvc mvc;
 	
+	/**
+	 * Метод проверяет логику работы методов сущности {@link PHMessage}:<br>
+	 * - создание с параметром<br>
+	 * - создание с помощью строителя<br>
+	 * - изменение свойств<br>
+	 * - сравнение разных объектов<br>
+	 * - сравнение идентичных объектов<br>
+	 */
 	@Test
 	public void phMessageTest() {
 		PHMessage msg1 = new PHMessage(TEST_MESSAGE);
@@ -68,6 +86,18 @@ public class JmsApp1Test {
 		Assert.assertEquals(msg1, msg2);
 	}
 	
+	/**
+	 * Метод проверяет логику работы методов контроллера {@link PHMessageController}:<br>
+	 * - добавление сущностей<br>
+	 * - добавление сущности с использованием невалидной информации<br>
+	 * - поиск всех сущностей<br>
+	 * - поиск сущностей по идентификатору<br>
+	 * - удаление сущности по идентификатору<br>
+	 * - поиск удаленной сущности по идентификатору<br>
+	 * - удаление сущности<br>
+	 * - модификация сущностей в очереди<br>
+	 * @throws Exception
+	 */
 	@Test
 	public void phMessageAddRecordsTest() throws Exception {
 		for(String s : COUNTER)
