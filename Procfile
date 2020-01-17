@@ -1,1 +1,1 @@
-web: java -jar ./target/jmsapp1.jar -Dserver.port=$PORT
+web: java -jar -Dserver.port=$PORT ./target/jmsapp1.jar 
