@@ -19,7 +19,7 @@ public class PHMessageValidationError {
     
     /**
      * Конструктор сохраняет сообщение об ошибке
-     * @param errorMessage
+     * @param errorMessage сообщение об ошибке
      */
     public PHMessageValidationError(String errorMessage) {
         this.errorMessage = errorMessage;

@@ -27,7 +27,7 @@ public class PHMessageBuilder {
 
 	/**
 	 * Возвращает статический инстанс класса
-	 * @return
+	 * @return экземпляр класса
 	 */
 	public static PHMessageBuilder create() {
 		return instance;

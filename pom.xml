@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ru.chuchalov</groupId>
   <artifactId>jmsapp1</artifactId>
-  <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>jmsapp1 Maven Webapp</name>
-  <url>http://maven.apache.org</url>
+  <packaging>jar</packaging>
+  <version>1.0</version>
+  <name>jmsapp1</name>
+  <url>https://github.com/centerco</url>
 
   <parent>
 	<groupId>org.springframework.boot</groupId>

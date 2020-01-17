@@ -28,10 +28,10 @@ import ru.chuchalov.messaging.PHMessage;
 import ru.chuchalov.messaging.PHMessageBuilder;
 
 /**
- * Юнит-тест для тестирования методов обработки сущностей {@link PHMessage}
+ * Юнит-тест для тестирования методов обработки сущностей PHMessage
  * Реализован цикл работы с сущностями:
  * - юнит-тест методов класса сущности {@link PHMessage} {@link JmsApp1Test#phMessageTest()}
- * - юнит-тест методов класса контроллера {@link PHMessageController} {@link JmsApp1Test#phMessageAddRecordsTest()}
+ * - юнит-тест методов класса контроллера PHMessageController {@link JmsApp1Test#phMessageAddRecordsTest()}
  * 
  * @author Andrei Chuchalov
  * @version 1.0
@@ -87,7 +87,7 @@ public class JmsApp1Test {
 	}
 	
 	/**
-	 * Метод проверяет логику работы методов контроллера {@link PHMessageController}:<br>
+	 * Метод проверяет логику работы методов контроллера PHMessageController:<br>
 	 * - добавление сущностей<br>
 	 * - добавление сущности с использованием невалидной информации<br>
 	 * - поиск всех сущностей<br>
@@ -96,7 +96,7 @@ public class JmsApp1Test {
 	 * - поиск удаленной сущности по идентификатору<br>
 	 * - удаление сущности<br>
 	 * - модификация сущностей в очереди<br>
-	 * @throws Exception
+	 * @throws Exception исключение при вызове теста
 	 */
 	@Test
 	public void phMessageAddRecordsTest() throws Exception {

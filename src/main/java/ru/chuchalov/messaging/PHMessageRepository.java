@@ -48,7 +48,7 @@ public class PHMessageRepository implements PHMessageCommonRepository<PHMessage>
 	
     /**
      * Метод удаляет сущность {@link PHMessage}
-     * @param сущность {@link PHMessage}
+     * @param domain сущность {@link PHMessage}
      */
     public void delete(PHMessage domain) {
         phMessages.remove(domain.getId());
