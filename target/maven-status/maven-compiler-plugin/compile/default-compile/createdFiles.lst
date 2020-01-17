@@ -1,0 +1,12 @@
+ru/chuchalov/PHMessageApplication.class
+ru/chuchalov/PHMessageApplicationListener.class
+ru/chuchalov/messaging/PHMessageProducer.class
+ru/chuchalov/messaging/PHMessageValidationBuilder.class
+ru/chuchalov/messaging/PHMessageBuilder.class
+ru/chuchalov/messaging/PHMessageConfig.class
+ru/chuchalov/messaging/PHMessageCommonRepository.class
+ru/chuchalov/messaging/PHMessageConsumer.class
+ru/chuchalov/messaging/PHMessageController.class
+ru/chuchalov/messaging/PHMessageRepository.class
+ru/chuchalov/messaging/PHMessageValidationError.class
+ru/chuchalov/messaging/PHMessage.class
